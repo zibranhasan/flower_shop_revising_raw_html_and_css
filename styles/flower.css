@@ -1,0 +1,116 @@
+header {
+  background-color: #fac2ce75;
+  margin-top: 0px;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 30px;
+}
+.small_writting_section {
+  text-align: center;
+}
+.image_section {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flower-container {
+  display: flex;
+  gap: 30px;
+}
+.flower-item {
+  text-align: center;
+}
+.flower-image {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 0 0 100px 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flower-caption {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+.img_with_bg {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #beb2b2;
+  margin-left: 180px;
+  width: 70%;
+}
+p {
+  font-size: smaller;
+}
+.another-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fac2ce75;
+  margin-top: 20px;
+  padding: 20px;
+}
+.instagram-section {
+  text-align: center;
+}
+.four-img-section {
+  display: flex;
+  gap: 5px;
+  width: 80%;
+  justify-content: center;
+  margin-left: 180px;
+}
+
+.four-img-section img {
+  max-width: 100%;
+  height: auto; /* Keeps aspect ratio */
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../Rectangle\ 9.png");
+  height: 300px;
+  margin-top: 10px;
+  width: 80%;
+  margin-left: 180px;
+}
+.form-section input[type="email"] {
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+footer span {
+  color: #fd6e0a;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #333;
+  height: 300px;
+  text-align: center;
+  padding-top: 90px;
+}
